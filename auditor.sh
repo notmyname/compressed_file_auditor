@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CHECKER=/usr/bin/gunzip
+CHECKER=`which gunzip`
 QUAR=/tmp/
 
 while [ $1 ]; do
